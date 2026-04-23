@@ -1,0 +1,34 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.so
+*.a
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Models (사용자 환경에서 직접 빌드 — scripts/build_engine.sh 참고)
+*.onnx
+*.engine
+*.plan
+*.trt
+
+# Editor / IDE
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
